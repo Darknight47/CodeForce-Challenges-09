@@ -16,6 +16,10 @@ Output
 If a perfect permutation of size n doesn't exist, print a single integer -1. 
 Otherwise print n distinct integers from 1 to n, p1, p2, ..., pn — permutation p, that is perfect. Separate printed numbers by whitespaces.
 
+Input:
+4
+Output:
+2 1 4 3 
 """
 n = int(input())
 if(n % 2 == 1):
